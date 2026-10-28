@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Bar</title>
+
+    <style>
+        header{
+            background-color: antiquewhite;
+            padding: 15px ;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .logo{
+            color: black;
+            font-size: 20px;
+            font-weight:bold ;
+        }
+        nav {
+            padding: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+            margin-right: 40px;
+        }
+
+        a {
+            color:blue;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        a:hover {
+            color: yellow;
+        }
+        footer{
+            background-color: blue;
+            text-align: center;
+            text-decoration: underline;
+            padding: 15px;
+            color: aliceblue;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        form{
+            display: inline;
+            margin: 20px;
+        }
+        input{
+            padding: 8px;
+        }
+        button{
+            padding: 8px;
+            background-color: blue;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo"></div>
+        <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <form>
+            <input type="text" placeholder="search">
+            <button type="submit">Search</button>    
+            </form>
+    </nav>
+
+    </header>
+    <footer>
+        <p> &copy;All Reserved</p>
+    </footer>
+
+    
+</body>
+</html>
+   
